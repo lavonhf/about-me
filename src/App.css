@@ -1,0 +1,14 @@
+.fade-in{
+    animation: faded 1s;
+}
+
+@keyframes faded{
+    from {
+        opacity: 0;
+        transform: translatey(5rem);
+    }
+    to{
+        opacity: 1;
+        transform: translatey(0);
+    }
+}
