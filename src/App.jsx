@@ -1,5 +1,6 @@
 import Hero from './component/hero'
 import './App.css'
+import { Contact } from './component/Contact'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <div className='bg-slate-800'>
         <Hero/>
+        <Contact/>
       </div>
     </>
   )
